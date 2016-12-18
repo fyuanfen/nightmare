@@ -32,7 +32,6 @@ nightmare.goto('http://login.taobao.com/')
                                 clearInterval(fuc);
                                 return nightmare
                                     .click('.tb-btn-buy a.J_LinkBuy');
-
                             }
                             else{
                                 nightmare
