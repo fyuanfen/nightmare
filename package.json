@@ -1,0 +1,23 @@
+{
+  "name": "nightmare-demo",
+  "version": "1.0.0",
+  "description": "This is a demo for nightmare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyuanfen/nightmare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fyuanfen/nightmare/issues"
+  },
+  "homepage": "https://github.com/fyuanfen/nightmare#readme",
+  "devDependencies": {
+    "nightmare": "^2.9.0",
+    "nightmare-swiftly": "^0.2.4"
+  }
+}
