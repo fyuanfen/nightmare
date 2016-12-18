@@ -47,6 +47,5 @@ nightmare.goto('http://login.taobao.com/')
 
             })
 
-
     });
 
