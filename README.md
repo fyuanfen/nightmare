@@ -29,7 +29,7 @@
 
 # Nightmare使用
 
-安装介绍可以参考[nightmare官方文档](https://github.com/segmentio/nightmare)
+首先肯定是要安装啦，安装介绍我就不废话了，可以参考[nightmare官方文档](https://github.com/segmentio/nightmare)
 ## 1. 在使用 nightmare 的时候，如果在忘记了在代码的最后调用 then 方法，会发现 nightmare 不会执行任何操作。
 
 这是因为每一个 nightmare 实例都有一个操作队列，而这个操作队列保存着 nightmare 的一系列操作。而 nightmare 的每一个链式调用只是将操作保存到队列里面，并没有立刻执行操作。
@@ -68,6 +68,7 @@ nightmare
 ```
 
  # Reference:
+ 
 [nightmare官方文档](https://github.com/segmentio/nightmare)
 
 [nightmare API中文简单介绍](http://blog.yege.me/2016/web/nightmare-api-introduct)
